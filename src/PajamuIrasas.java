@@ -12,13 +12,12 @@ public class PajamuIrasas extends Irasas {
 
     @Override
     public String toString() {
-        return "PajamuIrasas{" +
-                "pajamuKategorija='" + pajamuKategorija + '\'' +
-                ", pozymisArIBanka=" + pozymisArIBanka +
-                ", suma=" + suma +
-                ", data=" + dateTime +
-                ", papildomaInfo='" + papildomaInfo + '\'' +
-                '}';
+        return "P," + getId() +
+                "," + pajamuKategorija +
+                "," + pozymisArIBanka +
+                "," + suma +
+                "," + dateTime +
+                "," + papildomaInfo + "\n";
     }
 
     String getDisplayString() {

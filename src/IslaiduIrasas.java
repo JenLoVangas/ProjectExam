@@ -13,12 +13,12 @@ public class IslaiduIrasas extends Irasas {
 
     @Override
     public String toString() {
-        return "Id=" + getId() +
-                ", islaiduKategorija=" + islaiduKategorija +
-                ", atsiskaitymoBudas='" + atsiskaitymoBudas + '\'' +
-                ", suma=" + suma +
-                ", data=" + dateTime +
-                ", papildomaInfo='" + papildomaInfo + '\'';
+        return "I," + getId() +
+                "," + islaiduKategorija +
+                "," + atsiskaitymoBudas +
+                "," + suma +
+                "," + dateTime +
+                "," + papildomaInfo + "\n";
     }
 
     public String getDisplayString() {
