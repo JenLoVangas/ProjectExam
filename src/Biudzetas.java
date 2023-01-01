@@ -41,7 +41,7 @@ public class Biudzetas {
         String islaiduKategorija = sc.nextLine();
 
         System.out.println("Iveskite Atsiskaitymo buda");
-        String atsiskaitymoBudas = sc.next();
+        String atsiskaitymoBudas = sc.nextLine();
 
         System.out.println("Iveskite papildoma informacija");
         String papildomaInfo = sc.nextLine();
