@@ -6,9 +6,10 @@ public class Main {
         Biudzetas biudzetas = new Biudzetas();
         Scanner sc = new Scanner(System.in);
         boolean run = true;
+        String input;
         while (run) {
             pradzia();
-            String input = sc.next();
+            input = sc.next();
             System.out.println("______________________");
             switch (input) {
                 case "1" -> biudzetas.pridetiPajamuIrasa(sc);
@@ -22,6 +23,8 @@ public class Main {
                 case "9" -> biudzetas.pasalintiIslaiduIrasa(sc);
                 case "10" -> biudzetas.redaguotiPajamuIrasa(sc);
                 case "11" -> biudzetas.redaguotiIslaiduIrasa(sc);
+                case "12" -> Failas.issaugotiDuomenis(biudzetas.getIrasai());
+                case "13" -> biudzetas.setIrasai(Failas.gautiDuomenis());
                 case "x" -> run = false;
                 default -> System.out.println("Bloga įvestis...");
             }
@@ -43,7 +46,11 @@ public class Main {
         System.out.println(" [9] - pasalinti islaidu irasa");
         System.out.println("[10] - redaguoti pajamu irasa");
         System.out.println("[11] - redaguoti islaidu irasa");
+        System.out.println("[12] - issaugoti i sarasa");
+        System.out.println("[13] - uzkrauti is saraso");
         System.out.println(" [x] - pabaiga");
         System.out.println("______________________");
     }
 }
+
+

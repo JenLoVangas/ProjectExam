@@ -4,7 +4,6 @@ public class IslaiduIrasas extends Irasas {
     String islaiduKategorija;
     String atsiskaitymoBudas;
 
-
     public IslaiduIrasas(float suma, String islaiduKategorija, LocalDateTime dateTime, String atsiskaitymoBudas, String papildomaInfo) {
         super(suma, dateTime, papildomaInfo);
         this.islaiduKategorija = islaiduKategorija;
