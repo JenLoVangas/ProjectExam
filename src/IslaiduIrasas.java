@@ -1,21 +1,24 @@
 import java.time.LocalDateTime;
 
-public class IslaiduIrasas {
-    int id;
-    static int counter = 0;
-    float suma;
+public class IslaiduIrasas extends Irasas {
     String islaiduKategorija;
-    LocalDateTime dateTime;
     String atsiskaitymoBudas;
-    String papildomaInfo;
+
 
     public IslaiduIrasas(float suma, String islaiduKategorija, LocalDateTime dateTime, String atsiskaitymoBudas, String papildomaInfo) {
-        this.id = ++counter;
-        this.suma = suma;
+        super(suma, dateTime, papildomaInfo);
         this.islaiduKategorija = islaiduKategorija;
-        this.dateTime = dateTime;
         this.atsiskaitymoBudas = atsiskaitymoBudas;
-        this.papildomaInfo = papildomaInfo;
+    }
+
+    @Override
+    public String toString() {
+        return "Id=" + getId() +
+                ", islaiduKategorija=" + islaiduKategorija +
+                ", atsiskaitymoBudas='" + atsiskaitymoBudas + '\'' +
+                ", suma=" + suma +
+                ", data=" + dateTime +
+                ", papildomaInfo='" + papildomaInfo + '\'';
     }
 
     public String getDisplayString() {

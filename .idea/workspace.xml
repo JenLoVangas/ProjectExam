@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5d4a704-301d-4033-a278-709fd0300073" name="Changes" comment="1 dalis">
+    <list default="true" id="d5d4a704-301d-4033-a278-709fd0300073" name="Changes" comment="2 dalis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Biudzetas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Biudzetas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IslaiduIrasas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IslaiduIrasas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PajamuIrasas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PajamuIrasas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patikrinimai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patikrinimai.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dalis_1" />
+        <entry key="$PROJECT_DIR$" value="dalis_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,7 +52,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672606765847</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1 dalis">
+      <created>1672608282198</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672608282198</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2 dalis">
+      <created>1672608350086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672608350086</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1 dalis" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 dalis" />
+    <MESSAGE value="2 dalis" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 dalis" />
   </component>
 </project>

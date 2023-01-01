@@ -12,7 +12,7 @@ public class Patikrinimai {
                 sc.next();
             }
             suma = sc.nextFloat();
-            if (suma < 0) {
+            if(suma<0){
                 System.out.println("Iveskite teigema suma");
             }
         } while (suma <= 0);
@@ -40,5 +40,6 @@ public class Patikrinimai {
 
         return b;
     }
+
 
 }

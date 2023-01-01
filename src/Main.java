@@ -13,13 +13,15 @@ public class Main {
             switch (input) {
                 case "1" -> biudzetas.pridetiPajamuIrasa(sc);
                 case "2" -> biudzetas.pridetiIslaiduIrasa(sc);
-                case "3" -> biudzetas.gautiPajamuIrasa(sc);
-                case "4" -> biudzetas.gautiIslaiduIrasa(sc);
+                case "3" -> biudzetas.atvaizduotiPajamuIrasa(sc);
+                case "4" -> biudzetas.atvaizduotiIslaiduIrasa(sc);
                 case "5" -> System.out.println("Balansas: " + biudzetas.balansas());
                 case "6" -> biudzetas.atvaizduotiPajamuIrasus();
                 case "7" -> biudzetas.atvaizduotiIslaiduIrasus();
                 case "8" -> biudzetas.pasalintiPajamuIrasa(sc);
                 case "9" -> biudzetas.pasalintiIslaiduIrasa(sc);
+                case "10" -> biudzetas.redaguotiPajamuIrasa(sc);
+                case "11" -> biudzetas.redaguotiIslaiduIrasa(sc);
                 case "x" -> run = false;
                 default -> System.out.println("Bloga įvestis...");
             }
@@ -39,9 +41,9 @@ public class Main {
         System.out.println(" [7] - atspausdinti islaidu irasus");
         System.out.println(" [8] - pasalinti pajamu irasa");
         System.out.println(" [9] - pasalinti islaidu irasa");
+        System.out.println("[10] - redaguoti pajamu irasa");
+        System.out.println("[11] - redaguoti islaidu irasa");
         System.out.println(" [x] - pabaiga");
         System.out.println("______________________");
     }
 }
-
-

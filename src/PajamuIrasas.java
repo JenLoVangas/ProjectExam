@@ -1,21 +1,24 @@
 import java.time.LocalDateTime;
 
-public class PajamuIrasas {
-    int id;
-    static int counter = 0;
-    float suma;
+public class PajamuIrasas extends Irasas {
     String pajamuKategorija;
-    LocalDateTime dateTime;
     boolean pozymisArIBanka;
-    String papildomaInfo;
 
     public PajamuIrasas(float suma, String pajamuKategorija, LocalDateTime dateTime, boolean pozymisArIBanka, String papildomaInfo) {
-        this.id = ++counter;
-        this.suma = suma;
+        super(suma, dateTime, papildomaInfo);
         this.pajamuKategorija = pajamuKategorija;
-        this.dateTime = dateTime;
         this.pozymisArIBanka = pozymisArIBanka;
-        this.papildomaInfo = papildomaInfo;
+    }
+
+    @Override
+    public String toString() {
+        return "PajamuIrasas{" +
+                "pajamuKategorija='" + pajamuKategorija + '\'' +
+                ", pozymisArIBanka=" + pozymisArIBanka +
+                ", suma=" + suma +
+                ", data=" + dateTime +
+                ", papildomaInfo='" + papildomaInfo + '\'' +
+                '}';
     }
 
     String getDisplayString() {
