@@ -1,6 +1,8 @@
 import java.time.LocalDateTime;
 
 public class IslaiduIrasas {
+    int id;
+    static int counter = 0;
     float suma;
     String islaiduKategorija;
     LocalDateTime dateTime;
@@ -8,6 +10,7 @@ public class IslaiduIrasas {
     String papildomaInfo;
 
     public IslaiduIrasas(float suma, String islaiduKategorija, LocalDateTime dateTime, String atsiskaitymoBudas, String papildomaInfo) {
+        this.id = ++counter;
         this.suma = suma;
         this.islaiduKategorija = islaiduKategorija;
         this.dateTime = dateTime;
