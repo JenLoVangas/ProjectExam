@@ -47,6 +47,7 @@ public class Biudzetas {
         String atsiskaitymoBudas = sc.next();
 
         System.out.println("Iveskite papildoma informacija");
+        sc.nextLine();
         String papildomaInfo = sc.nextLine();
 
         LocalDateTime dateTime = LocalDateTime.now();
