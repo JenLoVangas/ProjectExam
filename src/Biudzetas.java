@@ -44,10 +44,9 @@ public class Biudzetas {
         String islaiduKategorija = sc.nextLine();
 
         System.out.println("Iveskite Atsiskaitymo buda");
-        String atsiskaitymoBudas = sc.next();
+        String atsiskaitymoBudas = sc.nextLine();
 
         System.out.println("Iveskite papildoma informacija");
-        sc.nextLine();
         String papildomaInfo = sc.nextLine();
 
         LocalDateTime dateTime = LocalDateTime.now();
@@ -239,7 +238,7 @@ public class Biudzetas {
 
     }
 
-//Uzduotis: KlasėBiudzetas turi turėti metodąatnaujintiIrasa(Irasas irasas) {...}, kuris suranda įrašą sąraše ir jį atnaujina.
+//Uzduotis: Klasė Biudzetas turi turėti metodą atnaujintiIrasa(Irasas irasas) {...}, kuris suranda įrašą sąraše ir jį atnaujina.
 //Bet uzduoti nenurodyta panaudoti si metoda.
 
     private void atnaujintiIrasa(Irasas irasas) {
