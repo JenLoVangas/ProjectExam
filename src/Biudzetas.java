@@ -22,7 +22,6 @@ public class Biudzetas {
         boolean pozymisArIBanka = Patikrinimai.banko(sc);
 
         System.out.println("Iveskite papildoma informacija");
-        sc.nextLine();
         String papildomaInfo = sc.nextLine();
 
         LocalDateTime dateTime = LocalDateTime.now();

@@ -12,7 +12,9 @@ public class Patikrinimai {
                 sc.next();
             }
             suma = sc.nextFloat();
-            System.out.println("Iveskite teigema suma");
+            if(suma<0){
+                System.out.println("Iveskite teigema suma");
+            }
         } while (suma <= 0);
         System.out.println("Ivesta suma yra " + suma);
         return suma;
@@ -25,10 +27,10 @@ public class Patikrinimai {
             System.out.println("Pasirinkite:");
             System.out.println("[0] - Ne");
             System.out.println("[1] - Taip");
-            sc.next();
+            sc.nextLine();
         }
 
-        boolean b = parseInt(sc.next()) == 1;
+        boolean b = parseInt(sc.nextLine()) == 1;
 
         String pasirinkimas;
         if (b) pasirinkimas = "Taip";
